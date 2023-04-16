@@ -1,7 +1,1 @@
-# ignore folder __pycache__
-__pycache__/*
-# ignore all file in __pycache__
-./__pycache__/*
-menu.cpython-310.pyc
-menu.cpython-311.pyc
-MiniMetroClasses.cpython-311.pyc
+*.pyc

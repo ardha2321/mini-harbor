@@ -3,16 +3,16 @@ Tujuan: Mengangkut barang sebanyak mungkin hingga permainan kalah.
 
 Kondisi kalah: Jika setidaknya satu perhentian memiliki 6 barang yang menunggu selama 45 detik, maka permainan kalah.
 
-Cara bermain: Pemain memiliki kapal, jalur, kendaraan darat, dan container dalam jumlah terbatas. Yang bisa dilakukan pemain adalah membentuk jalur dan menambahkan kapal dan container ke dalamnya. Segala sesuatu yang lain dikelola oleh permainan. Setiap 90 detik pemain akan mendapatkan satu sumber daya acak, dan dapat memilih di antara dua sumber lainnya, khusus untuk kendaraan darat pemain akan mendapatkan 3 kendaraan sekaligus.
+Cara bermain: Pemain memiliki kapal, jalur, kendaraan darat, dan container dalam jumlah terbatas. Yang bisa dilakukan pemain adalah membentuk jalur dan menambahkan kapal dan container ke dalamnya. Segala sesuatu yang lain dikelola oleh permainan. Setiap 90 detik pemain akan mendapatkan satu sumber daya acak, dan dapat memilih di antara dua sumber lainnya.
 
-Dunia: Dunia berisi semacam air(laut) dan juga pulau, dan seiring waktu game ini akan menghasilkan perhentian (pelabuhan) di lokasi acak tetapi terkontrol (dari yang paling mungkin hingga yang paling tidak mungkin: lingkaran, segitiga, kotak). barang juga akan muncul seiring waktu (semua bentuk memiliki kemungkinan yang sama).
+Dunia: Dunia berisi semacam air(laut) dan juga daratan, dan seiring waktu ia menghasilkan perhentian (pelabuhan) di lokasi acak tetapi terkontrol (dari yang paling mungkin hingga yang paling tidak mungkin: lingkaran, segitiga, kotak). barang juga akan muncul seiring waktu (semua bentuk memiliki kemungkinan yang sama).
 
 Gerakan: Secara umum, gerakan dalam game dimulai dengan klik kiri pada suatu perhentian (pelabuhan). Kemudian sambil menahan mouse kiri, seret jalur ke lokasi / pelabuhan lain yang diinginkan. Tergantung pada elemennya, akan ada semacam indikasi visual bahwa beberapa gerakan telah terjadi. Melepaskan tombol kiri mouse melakukan perubahan yang dilakukan.
 jalur: Membuat jalur dilakukan dengan mengeklik di dekat perhentian, dan menyeret mouse ke perhentian lain untuk menghubungkannya. jalur dapat diedit dengan cara klik pada jalur kemudian diseret ke perhentian atau pelabuhan yang diinginkan; memulai gerakan di dekat tepi akan memperpanjang jalur, jika tidak berhenti akan dimasukkan. Saat memindahkan jalur, mengarahkan kursor ke stop pada jalur akan menghapusnya dari jalur. jalur yang melintasi daratan maka akan menggunakan kendaraan darat.
 
 Kapal: kapal memindahkan container dan barang, container mengikuti kapal dan menampung lebih banyak barang. Mereka dapat dipindahkan sebagaimana diuraikan di bagian gerakan. Memulai pergerakan di atas ikon di kanan bawah dan memasukkannya kedalam jalur akan menambahkan kapal. Maksimal ada 4 kapal per jalur dan 4 container per kapal. Jika kapal atau container yang sudah ada dipindahkan, maka harus menurunkan barangnya sebelum melakukan perpindahan.
 
-Cuaca: Terdapat tiga model cuaca yaitu Thunder storm yang akan muncul pada lokasi acak, dan memiliki efek speed up (windy) dan slow down (Rainy dan Storm), terkhusus untuk strom akan mulai muncul ketika pemain melewati 1 menit dan 5 menit pertama di game, ketiga cuaca akan berpindah tempat secara acak dengan kurun waktu 20-35 detik
+Cuaca: Terdapat tiga model cuaca yaitu Thunder storm yang akan muncul pada lokasi acak, dan memiliki efek speed up (windy) dan slow down (Rainy dan Storm), terkhusus untuk strom akan mulai muncul ketika pemain melewati 1 menit pertama di game, ketiga cuaca akan berpindah tempat secara acak dengan kurun waktu 20-35 detik
 
 Tampilan antarmuka:
 Kiri atas: jumlah barang yang dipindahkan
@@ -20,6 +20,5 @@ Kanan atas: informasi dan pilihan tentang sumber daya
 Kiri bawah: informasi tentang jalur yang digunakan dan jalur yang tersedia
 Kanan bawah: informasi tentang sumber daya yang tersedia, juga membuat/menghancurkan kapal/container
 Menekan spasi akan menjeda permainan. Mengklik tombol keluar di jendela menutup permainan. Saat perhentian penuh sesak, busur merah akan ditarik di sekitarnya. Setelah busur membentuk lingkaran, permainan berakhir.
-Untuk pause game tekan space bar
 
 (Esc untuk kembali)

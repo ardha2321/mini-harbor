@@ -171,8 +171,6 @@ class Rainy(Weather):
         targetSurface.blit(self.__rainy, (self.__rainy_x, self.__rainy_y))
 
 # spawn after 1 minutes
-
-
 class Storm(Rainy, Windy):
     def __init__(self, first_minutes, **kwargs):
         super().__init__(**kwargs)
